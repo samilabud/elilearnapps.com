@@ -12,6 +12,7 @@ let expire.
 ```
 index.html               homepage
 privacy-policy/          /privacy-policy/ — the URL referenced by the Google Play listing
+es/privacy-policy/       /es/privacy-policy/ — Spanish translation, used by the App Store Spanish (Mexico) locale
 404.html                 not-found page
 assets/styles.css        all styling (brand palette sampled from the original logo)
 assets/                  original images recovered from the archive

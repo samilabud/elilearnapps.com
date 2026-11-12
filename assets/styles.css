@@ -70,8 +70,10 @@ a { color: var(--link); }
   display: flex; align-items: center; justify-content: space-between;
   gap: 16px; min-height: 66px;
 }
-.brand { display: inline-flex; align-items: center; }
-.brand img { height: 38px; width: auto; border-radius: 6px; }
+.brand { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; }
+.brand img { height: 40px; width: 40px; border-radius: 10px; }
+.brand-name { font-size: 1.3rem; font-weight: 800; letter-spacing: -.02em; color: var(--text); }
+.brand-name b { color: var(--red); font-weight: 800; }
 .nav { display: flex; gap: 6px; flex-wrap: wrap; }
 .nav a {
   color: var(--text-muted); text-decoration: none; font-size: 15px; font-weight: 500;

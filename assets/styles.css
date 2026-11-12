@@ -132,7 +132,9 @@ section.alt { background: var(--bg-alt); }
 .card-body { padding: 20px 22px 24px; flex: 1; display: flex; flex-direction: column; align-items: flex-start; }
 .card-body h3 { margin: 0 0 8px; font-size: 1.15rem; font-weight: 700; }
 .card-body p { margin: 0 0 16px; color: var(--text-muted); font-size: 15px; }
-.card-body .btn { margin-top: auto; padding: 9px 18px; font-size: 14px; background: var(--red); color: #fff; }
+.card-body .btn { padding: 9px 18px; font-size: 14px; background: var(--red); color: #fff; }
+.btn-row { margin-top: auto; display: flex; flex-wrap: wrap; gap: 8px; }
+.btn .ico { width: 1.1em; height: 1.1em; vertical-align: -.2em; margin-right: 8px; fill: currentColor; }
 
 /* ---------- team ---------- */
 .team {
